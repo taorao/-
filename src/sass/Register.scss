@@ -1,0 +1,81 @@
+.bg{
+	
+	background-size:100% auto;
+	background-repeat:no-repeat;
+	height: 13.3rem;
+}
+.box{
+	border: 0.0266rem solid #9c8787;
+	width: 10.8rem;
+	height: 8.50rem;
+	background: #F6F5A0;
+	position: absolute;
+	top: 6.13rem;
+	left: 13.14rem;
+}
+input[type=text]{
+	width: 6.56rem;
+    height: 1.04rem;
+    margin-left: 2.773rem;
+    margin-top: 0.106rem;
+    border: none;
+    font-size: 0.453rem;
+}
+input[type=password]{
+        width: 6.56rem;
+    height: 0.986rem;
+    margin-left: 2.853rem;
+    font-size: 0.453rem;
+    border: none;
+    margin-top: -2.186rem;
+}
+input[type="button"]{
+	background: orangered;
+    margin-left: 6.96rem;
+    margin-top: -2.53rem;
+    height: 0.693rem;
+    font-size: 0.346rem;
+}
+input[type="submit"]{
+	    font-size: 0.506rem;
+   
+    background: orangered;
+    margin-top: -25.09rem;
+    width: 8rem;
+    height: 1.2rem;
+    color: #fff;
+    margin-left: 0.533rem;
+}
+.regis{
+	background: #fff;
+    position: relative;height: 6.05rem;
+}
+.yzm{
+	font-size: 0.48rem;   display: inline-block;
+    margin-top: 0.4rem;
+    position: absolute;
+    margin-left: 0.8rem;
+}
+.mmd{
+	font-size: 0.48rem;
+    display: inline-block;
+    margin-top: -0.746rem;
+    position: absolute;
+    margin-left: 1.226rem;
+}
+.qr{
+font-size: 0.48rem;
+    margin-top: -0.773rem;
+    position: absolute;
+    margin-left: 0.293rem;
+
+}
+.kx{border: 0.0133rem solid #ccc;
+    margin-top: 0.106rem;
+    position: inherit;}
+#msg{
+display: block;
+    margin-top: -0.72rem;
+    font-size: 0.48rem;
+    margin-left: 3.146rem;
+}

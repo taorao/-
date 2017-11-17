@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <link rel="stylesheet" type="text/css" href="css/mui.min.css"/>
+    <link rel="stylesheet" href="css/侧边栏.css">
+</head>
+<body>
+	 <!-- 主界面菜单同时移动 -->
+        <!-- 侧滑导航根容器 -->
+        <div id="offCanvasWrapper" class="mui-off-canvas-wrap mui-draggable">
+            <!-- 主页面容器 -->
+            <div class="mui-inner-wrap">
+                <!-- 菜单容器 -->
+                <aside class="mui-off-canvas-left" id="offCanvasSide">
+                    <div class="mui-scroll-wrapper">
+                        <div class="mui-scroll">
+                            <!-- 菜单具体展示内容 -->
+                            <p class="one">0元吃大餐</p>
+                            <img src="img/img/img/5.jpg">
+                            <p class="two">槐店王婆大虾双人套餐免费吃!</p>
+                            <div class="qiang">抢</div>	
+                            <p class="bt">迎泽区>100km</p>
+                            
+                            <img src="img/img/img/4.jpg">
+                            <p class="two1">疆遇新疆美食你肯定喜欢！</p>
+                            <div class="qiang1">抢</div>
+                            <p class="bt1">体育路>100km</p>
+                            
+                            <img src="img/img/img/3.jpg">
+                           <p class="two2">味蜀吾火锅来袭！</p>
+                            <div class="qiang2">抢</div>	
+                           
+                        </div>
+                    </div>
+                </aside>
+                <!-- 主页面标题 -->
+                <header class="mui-bar mui-bar-nav">
+                    <a href="#offCanvasSide" class="mui-icon mui-action-menu mui-icon-bars mui-pull-left" href="#offCanvasSide"></a>
+                    <h1 class="mui-title">美团点评</h1>
+                </header>
+                
+               <!-- 主页面内容容器 -->
+                <div class="mui-content mui-scroll-wrapper">
+                    <div class="mui-scroll">
+                        <!-- 主界面具体展示内容 -->
+                        <button id="btn" type="button" class="mui-btn mui-btn-blue mui-btn-block">太原-同城活动</button>
+                        <img class="pic" src="img/img/20160126203830jiehun.png">
+                        <p class="nr">结婚</p>
+                        <p class="xz">赢免费机酒</p>
+                        
+                        <img class="pic1" src="img/img/20160204172927huoguo.png">
+                        <p class="nr1">霸王餐</p>
+                        <p class="xz1">0元吃大餐</p>
+                        
+                        <img class="pic2" src="img/img/20160126203251waimai.png">
+                        <p class="nr2">演唱会</p>
+                        <p class="xz2">话剧亲子剧</p>
+                        
+                        <img class="pic3" src="img/img/20160126203337jiudian.png">
+                        <p class="nr3">学习培训</p>
+                        <p class="xz3">学魅力妆容</p>
+                        
+                         <img class="pic4" src="img/img/20160126203440zhoubianyou.png">
+                        <p class="nr4">运动健身</p>
+                        <p class="xz4">免费送装备</p>
+                        
+                        <img class="pic5" src="img/img/20160126202946liren.png">
+                        <p class="nr5">亲子/早教</p>
+                        <p class="xz5">抢妈咪包</p>
+                    </div>
+                </div>
+           	 <div class="mui-off-canvas-backdrop"></div>
+            </div>
+        </div>
+    <script src="js/mui.min.js"></script>
+    <script type="text/javascript">
+    mui.init()
+    
+    mui('#btn')[0].addEventListener('tap',function() {
+    	mui('#offCanvasWrapper').offCanvas('show');
+    })
+    </script>
+</body>
+</html>

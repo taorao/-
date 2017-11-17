@@ -1,0 +1,213 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	    position: absolute;
+    text-decoration: none;
+    height: 0.533rem;
+    line-height: 0.533rem;
+    top: 8.233rem;
+    left: 0.473rem;
+    font-size: 0.426rem;
+}
+.header{
+	position: relative;
+	width: 100%;
+	height: 1.573rem;
+	background: #fff;
+}
+.left{
+	position: absolute;
+	color: #FF4500;
+	font-size: 0.88rem;
+    top: 0.453rem;
+}
+
+.up{
+	position: absolute;
+	
+	font-size:0.586rem;    left: 3.706rem;
+    top: 0.346rem;
+}
+.bord{
+	height:0.666rem;
+}
+.bord, body{
+	background-color: #f0f0f0;
+}
+.login-form {
+	position:relative;
+    background: #fff;
+    min-height: 4.16rem;
+}
+.code{
+	line-height: 0.586rem;
+    font-size: 0.533rem;
+    color: #333;    margin-left: 0.266rem;
+}
+.down-arrow{
+	font-size: 0.64rem;
+    color: #333;
+    margin-left: 1.546rem;
+    margin-top: -0.906rem;
+}
+.include [type=number]{
+	position:absolute;
+   
+    display: block;
+    border: none;
+    height: 0.64rem;
+    line-height: 0.64rem;
+    padding: 0.266rem 0 0.266rem 0.266rem;
+    font-size: 0.48rem;
+    outline: 0;
+    color: #333;
+   top: 0.293rem;
+    left: 2.746rem;
+}
+.line{
+	margin-top:0.266rem;
+	border:0.0133rem solid #ccc;
+}
+.line2{
+	    margin-top: 1.253rem;
+	border:0.0133rem solid #ccc;
+}
+.send-message{
+	position:absolute;
+	background: #fff;
+    border: solid 0.026rem #bbb;
+    font-size: 0.373rem;
+    color: #333;
+    padding: 0 0.266rem;
+    margin:0.24rem 0.266rem 0.266rem 0;
+    line-height: 0.666rem;
+    height: 0.666rem;
+    display: block;
+    text-decoration: none;
+    border-radius: 0.08rem;
+    top: 0.266rem;
+    left: 7.226rem;
+}
+.yanzm{
+	    position: absolute;
+    top: 1.33rem;
+    margin-top: 0.586rem;
+    left: 0;
+    height: 0.586rem;
+    line-height: 0.586rem;
+    font-size: 0.48rem;
+    color: #333;
+    margin-left: 0.373rem;
+}
+.Easylogin input[type=number]{
+   
+    
+    position: absolute;
+    display: block;
+    border: none;
+    height: 0.64rem;
+    line-height: 0.64rem;
+    padding: 0.266rem 0 0.266rem 0.266rem;
+    font-size: 0.48rem;
+   
+    color: #333;
+    top: 1.653rem;
+    left: 2.8rem;
+   
+}
+
+.btn-wrapper {
+    margin: .28rem .2rem;
+}
+.btn-larger {
+    height: .94rem;
+    line-height: .94rem;
+    font-size: .4rem;
+    background:#06c1ae;
+}
+.btn {
+    display: inline-block;
+    margin: 0;
+    text-align: center;
+    height: .6rem;
+    letter-spacing: 0.16rem;
+    border-radius: .09rem;
+    color: #fff;
+    border: 0;
+    background-color: #FF4500;
+    font-size: .48rem;
+    vertical-align: middle;
+    line-height: .6rem;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin-top: 0.586rem;
+}
+.btn-block {
+        display: block;
+   
+    height: 1.226rem;
+    margin-top: -0.0266rem;
+    width: 8.8rem;
+    margin-left: 0.186rem;
+}
+
+.mm{
+	 position: absolute;
+    top: 50%;
+        margin-top: 1.12rem;
+    left: 0;
+    height: 0.586rem;
+    line-height: 0.586rem;
+    font-size: 0.48rem;
+    color: #333;
+    margin-left: 0.373rem;
+}
+
+.pw input[type=password]{
+   
+    
+   position: absolute;
+    display: block;
+    border: none;
+    height: 0.64rem;
+    line-height: 0.64rem;
+    padding: 0.266rem 0 0.266rem 0.266rem;
+    font-size: 0.48rem;
+    color: #333;
+       top: 2.93rem;
+    left: 2.8rem;
+   
+}
+.dbd{
+	    position: fixed;
+    
+    margin-top: 8.586rem;
+    width: 100%;
+    text-align: center;
+    font-size: 0.373rem;
+    line-height: 0.32rem;
+    color: #999;
+    margin-left: -1.253rem;
+}
+.xy{
+	    display: block;
+    color: #466889;
+    font-size: 0.373rem;
+    margin-left: 6.533rem;
+    margin-top: -8.346rem;
+}
+.tz{
+	margin-top:11.2rem;
+}
+.yhm{
+	font-size: 0.48rem;
+   
+       
+    display: inline-block;
+    margin-top: 0.4rem;
+    position: absolute;
+    margin-left: 0.8rem;
+}

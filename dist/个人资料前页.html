@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" href="css/个人资料前页.css">
+	</head>
+	<body>
+	<div class="sm">
+		<a href="个人资料页.html"><div class="qt">&lt;</div></a>
+		<img class="nh" src="img/头像 女孩.png">
+		<a class="dj" href="">dpuser_1244626802</a>
+					<p class="fs">粉丝 0 | 关注 0</p>
+					
+					<img class="gr" src="img/个人资料.png">
+					<a href="个人信息页.html"><div class="right">个人资料</div></a>	
+					<div class="qta">&gt;</div>
+	</div>
+	<div class="pz">
+		<div class="qb">全部</div>
+		<div class="bp">点评</div>
+		<p class="sl">0</p>
+		<div class="tp">图片</div>
+		<p class="sl1">0</p>
+		<div class="sp">视频</div>
+		<p class="sl2">0</p>
+		<div class="jd">签到</div>
+		<p class="sl3">0</p>
+			</div>
+			<div class="xian"></div>
+			<img class="ww" src="img/娃娃.png">
+				<div class="nr">暂未留下任何内容</div>
+		<script type="text/javascript">
+      	document.documentElement.style.fontSize=document.documentElement.clientWidth/10+'px';
+      	
+      	var _cookie = document.cookie;	
+			var arr = _cookie.split("=");
+			_cookie=arr[1];
+//			for(var i=0;i<arr.length;i++){
+//				if(arr[i] === key){
+//					return arr[i].split("=")[1];
+//					_cookie=arr[i]
+//				}
+//			}
+//		}
+     	
+     	console.log(_cookie)
+     	var username=document.getElementsByClassName('dj')[0]
+     	window.onload=function(){
+     		username.innerHTML=_cookie;
+     	}
+      	</script>
+	</body>
+</html>

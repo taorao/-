@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" href="font/iconfont.css">
+		<style>
+		*{
+			margin:0;
+			padding:0;
+		}
+		a{text-decoration: none;}
+		.wm{
+			background:#FFCC66;
+			height:17.78rem;width:100%;
+		}
+		.tp{
+			width: 55%;height:4.8rem;
+			margin-left: 4.106rem;
+            margin-top: 0.533rem;
+		}
+		.wz1{
+			font-size: 0.666rem;
+    font-weight: 600;
+    margin-top: -3.92rem;
+    margin-left: 0.746rem;
+			
+		}
+		.wz2{
+			    font-size: 0.453rem;
+    color: #8C8C8C;
+    margin-left: 0.853rem;
+}
+		
+		.tp1{
+			width: 50%;
+			height:6.373rem;
+			    margin-top: 3.2rem;
+            margin-left: 0.64rem;
+		} 
+		.wz3{
+			    font-size: 0.666rem;
+    font-weight: 600;
+    margin-top: -4.453rem;
+    margin-left: 5.973rem;
+		}
+		.wz4{
+			font-size: 0.453rem;
+    color: #8C8C8C;
+    margin-left: 6.133rem;
+		}
+		.an{
+			border-radius: 0.4rem;
+    background: orangered;
+    color: #fff;
+    font-size: 0.48rem;
+    width: 7.6rem;
+    height: 1.12rem;
+      margin-top: 3.6rem;
+    margin-left: 1.066rem;
+    text-align: center;
+    line-height: 1.12rem;
+		}
+		
+		
+			.wd_{
+				font-size: 0.32rem;
+				margin-left: 8.106rem;
+                margin-top: 0.48rem;
+			}
+			.zj_{
+				font-size: 0.32rem;
+				margin-left: 6.16rem;
+                margin-top: 0.506rem;
+			}
+			.sp_{
+				display:block;
+				font-size: 0.32rem;
+				margin-left: 4.106rem;
+                margin-top: 0.506rem;
+			}
+			.fx_{
+				display:block;
+				font-size: 0.32rem;
+				margin-left: 2.186rem;
+                margin-top: 0.506rem;
+			}
+			.onea_{
+				font-size: 0.32rem;
+			    margin-top: -0.666rem;
+			    margin-left: 0.133rem;
+            }
+			.nav1.fixed {
+				
+		     position: fixed;
+		     top: 16.18rem;
+		     z-index: 999;
+           }
+
+			.nav1 {
+				border:0.0533rem solid #ccc;
+			    background: #fff;
+			    height: 1.6rem;
+			}
+			footer{
+				height:1.6rem;
+				
+			}
+			
+			ul{
+				margin:0;padding:0;
+				width:100%;    /* 默认有内边距和外边距*/
+				}
+			li{
+					box-sizing:border-box;/*盒模型*/
+					float:left;
+					border:0.0266rem solid #eee;
+					width:1.973rem;
+					height:1.546rem;
+					line-height: 1.173rem;
+					text-align: center;
+					list-style: none;
+				}
+				i{font-size:0.64rem!important;color:#FF8C00;}        /*优先级最高*/
+				.clearfix:after{
+					content:"";
+					display:block;
+					height:0;
+					visibility: hidden;    /*hidden 设置对象隐藏*/
+					clear:both;
+					}	
+			li.active .icon-dazhongdianping:before{
+				content: "\e741";  /*改成块状的图标*/
+			}
+			li.active .icon-faxian1:before{
+				content: "\e608"; 
+			}
+			li.active .icon-shipin:before{
+				content: "\e643";
+			}
+			li.active .icon-zuji:before{
+				 content: "\e6ca"; 
+			}
+			li.active .icon-wode1:before{
+				content: "\e604";
+			}
+		</style>
+	</head>
+	<body>
+		<div class="wm">
+			<img class="tp" src="img/tp/i.jpg">
+				<p class="wz1">标记生活</p>
+				<p class="wz2">赚取更多积分</p>
+			<img class="tp1" src="img/t012b3daa4dc9f9f624.jpg">
+			<p class="wz3">分享足迹</p>
+				<p class="wz4">记录生活点滴</p>
+				<div class="an">立即开启足迹</div>
+		</div>
+		 <footer class="nav1 fixed">
+	    	<ul class="clearfix">
+			<li class="active">
+			  <i class="icon iconfont icon-dazhongdianping"></i>
+			  <a href="主页.html"><p class="onea_">首页</p></a>
+			</li>
+			<li>
+			<i class="icon iconfont icon-faxian1"></i>
+			 <a href="发现页.html"><p class="onea_">发现</p></a>
+			</li>
+			<li>
+			 <i class="icon iconfont icon-shipin"></i>
+			  <a href="视频页.html"><p class="onea_">视频</p></a>
+			</li>
+			<li>
+			
+			 <i class="icon iconfont icon-zuji"></i>
+			 <a href=""><p class="onea_">足迹</p></a>
+			</li>
+			<li>
+				<i class="icon iconfont icon-wode1"></i>
+				 <a href="个人资料页1.html"><p class="onea_">我的</p></a>
+			</li>
+		</ul>
+	    </footer>
+		<script type="text/javascript">
+      	document.documentElement.style.fontSize=document.documentElement.clientWidth/10+'px';
+      	
+      	var lis=document.getElementsByTagName("li");
+		for(var i=0;i<lis.length;i++){
+			lis[i].onclick=function(){
+				for(var j=0;j<lis.length;j++){    //清除样式
+					lis[j].className="";
+				}
+				this.className="active";
+			}
+			
+		}
+		
+		var nav=document.getElementsByClassName("nav1")[0];
+     window.onscroll=function(){
+	var scrollTop=document.documentElement.scrollTop||document.body.scrollTop;
+	if(scrollTop=661){
+		nav.className="nav1 fixed";
+		
+	}else{
+		nav.className="nav1";
+	}
+}
+      	</script>
+	</body>
+</html>

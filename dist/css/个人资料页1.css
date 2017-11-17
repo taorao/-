@@ -1,0 +1,373 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+.up {
+  height: 1.6rem; }
+
+.shang {
+  height: 6.18rem;
+  background: #EEC900; }
+
+.pic {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-top: 1.466rem;
+  margin-left: 0.96rem; }
+
+.dj {
+  display: block;
+  font-size: 0.506rem;
+  color: #fff;
+  margin-top: -1.706rem;
+  margin-left: 2.8rem; }
+
+.yh {
+  color: #fff;
+  font-size: 0.35rem;
+  letter-spacing: 0.0266rem;
+  margin-left: 2.826rem;
+  margin-top: 0.213rem; }
+
+.left {
+  color: #fff;
+  font-size: 0.666rem;
+  margin-top: -0.72rem;
+  margin-left: 9.04rem; }
+
+.xian {
+  margin-top: -2.64rem; }
+
+.pic1 {
+  width: 1.066rem;
+  height: 1.066rem;
+  margin-top: 0.373rem;
+  margin-left: 0.373rem; }
+
+.sc {
+  font-size: 0.373rem;
+  color: #fff;
+  margin-left: 0.533rem;
+  margin-top: -0.16rem; }
+
+.pic2 {
+  display: block;
+  width: 1.066rem;
+  height: 1.066rem;
+  margin-top: -1.653rem;
+  margin-left: 2.16rem; }
+
+.dp {
+  font-size: 0.373rem;
+  color: #fff;
+  margin-left: 2.16rem;
+  margin-top: 0.0533rem; }
+
+.pic3 {
+  display: block;
+  width: 0.933rem;
+  height: 0.933rem;
+  margin-top: -1.6rem;
+  margin-left: 4.186rem; }
+
+.bd {
+  font-size: 0.373rem;
+  color: #fff;
+  margin-left: 4.293rem;
+  margin-top: 0.16rem; }
+
+.pic4 {
+  display: block;
+  width: 1.066rem;
+  height: 1.066rem;
+  margin-top: -1.68rem;
+  margin-left: 6.18rem; }
+
+.ll {
+  font-size: 0.373rem;
+  color: #fff;
+  margin-left: 6.026rem;
+  margin-top: 0.106rem; }
+
+.pic5 {
+  display: block;
+  width: 1.066rem;
+  height: 1.066rem;
+  margin-top: -1.68rem;
+  margin-left: 8.186rem; }
+
+.hy {
+  font-size: 0.373rem;
+  color: #fff;
+  margin-left: 8.346rem;
+  margin-top: 0.106rem; }
+
+.pic6 {
+  width: 0.933rem;
+  height: 0.933rem;
+  margin-top: 5.013rem;
+  margin-left: 1.33rem; }
+
+.fk {
+  font-size: 0.373rem;
+  color: #000;
+  margin-left: 1.28rem;
+  margin-top: -0.133rem; }
+
+.pic7 {
+  display: block;
+  width: 0.933rem;
+  height: 0.933rem;
+  margin-top: -1.573rem;
+  margin-left: 3.25rem; }
+
+.sy {
+  font-size: 0.373rem;
+  color: #000;
+  margin-left: 3.17rem;
+  margin-top: 0.106rem; }
+
+.pic8 {
+  display: block;
+  width: 0.933rem;
+  height: 0.933rem;
+  margin-top: -1.573rem;
+  margin-left: 5.28rem; }
+
+.tk {
+  font-size: 0.373rem;
+  color: #000;
+  margin-left: 5.04rem;
+  margin-top: 0.106rem; }
+
+.pic9 {
+  display: block;
+  width: 0.933rem;
+  height: 0.933rem;
+  margin-top: -1.573rem;
+  margin-left: 7.44rem; }
+
+.dd {
+  font-size: 0.373rem;
+  color: #000;
+  margin-left: 7.546rem;
+  margin-top: 0.106rem; }
+
+.bord {
+  height: 0.366rem; }
+
+.bord, body {
+  background-color: #fff; }
+
+.jx {
+  height: 0.266rem;
+  background: #f0f0f0; }
+
+.pic10 {
+  width: 1.12rem;
+  height: 0.933rem;
+  margin-left: 1.173rem;
+  margin-top: 0.506rem; }
+
+.kq {
+  font-size: 0.373rem;
+  color: #000;
+  margin-left: 1.52rem; }
+
+.zh {
+  font-size: 0.373rem;
+  color: #8C8C8C;
+  margin-left: 1.626rem; }
+
+.pic11 {
+  display: block;
+  width: 0.986rem;
+  height: 0.933rem;
+  margin-left: 3.32rem;
+  margin-top: -2.213rem; }
+
+.jf {
+  font-size: 0.373rem;
+  color: #000;
+  margin-left: 3.41rem;
+  margin-top: 0.266rem; }
+
+.zh1 {
+  font-size: 0.373rem;
+  color: #8C8C8C;
+  margin-left: 1.626rem;
+  margin-left: 3.65rem; }
+
+.pic12 {
+  display: block;
+  width: 0.986rem;
+  height: 0.933rem;
+  margin-left: 5.306rem;
+  margin-top: -2.213rem; }
+
+.ye {
+  font-size: 0.373rem;
+  color: #000;
+  margin-left: 5.44rem;
+  margin-top: 0.266rem; }
+
+.zh2 {
+  font-size: 0.373rem;
+  color: #8C8C8C;
+  margin-left: 1.626rem;
+  margin-left: 5.25rem; }
+
+.pic13 {
+  display: block;
+  width: 0.986rem;
+  height: 0.933rem;
+  margin-left: 7.46rem;
+  margin-top: -2.213rem; }
+
+.qb {
+  font-size: 0.373rem;
+  color: #000;
+  margin-left: 7.2rem;
+  margin-top: 0.266rem; }
+
+.zh3 {
+  font-size: 0.373rem;
+  color: #8C8C8C;
+  margin-left: 1.626rem;
+  margin-left: 7.226rem; }
+
+.jx1 {
+  height: 0.266rem;
+  background: #f0f0f0;
+  margin-top: 0.186rem; }
+
+.one_ {
+  font-size: 0.48rem;
+  margin-top: 0.4rem;
+  margin-left: 0.746rem; }
+
+.left1 {
+  color: #8C8C8C;
+  margin-left: 8.826rem;
+  margin-top: -0.853rem;
+  font-size: 0.746rem; }
+
+.two_ {
+  font-size: 0.48rem;
+  margin-top: 0.4rem;
+  margin-left: 0.746rem; }
+
+.ry {
+  color: #8C8C8C;
+  font-size: 0.4rem;
+  margin-top: -0.56rem;
+  margin-left: 5.626rem; }
+
+.left2 {
+  color: #8C8C8C;
+  margin-left: 8.826rem;
+  margin-top: -0.853rem;
+  font-size: 0.746rem; }
+
+.three_ {
+  font-size: 0.48rem;
+  margin-top: 0.4rem;
+  margin-left: 0.746rem; }
+
+.left3 {
+  color: #8C8C8C;
+  margin-left: 8.826rem;
+  margin-top: -0.853rem;
+  font-size: 0.746rem; }
+
+.four_ {
+  font-size: 0.48rem;
+  margin-top: 0.4rem;
+  margin-left: 0.746rem; }
+
+.left4 {
+  color: #8C8C8C;
+  margin-left: 8.826rem;
+  margin-top: -0.853rem;
+  font-size: 0.746rem; }
+
+.five_ {
+  font-size: 0.48rem;
+  margin-top: 0.4rem;
+  margin-left: 0.746rem; }
+
+.left5 {
+  color: #8C8C8C;
+  margin-left: 8.826rem;
+  margin-top: -0.853rem;
+  font-size: 0.746rem; }
+
+.six_ {
+  font-size: 0.48rem;
+  margin-top: 0.4rem;
+  margin-left: 0.746rem; }
+
+.left6 {
+  color: #8C8C8C;
+  margin-left: 8.826rem;
+  margin-top: -0.853rem;
+  font-size: 0.746rem; }
+
+.jx2 {
+  height: 0.266rem;
+  background: #f0f0f0; }
+
+.seven_ {
+  font-size: 0.48rem;
+  margin-top: 0.4rem;
+  margin-left: 0.746rem; }
+
+.left7 {
+  color: #8C8C8C;
+  margin-left: 8.826rem;
+  margin-top: -0.853rem;
+  font-size: 0.746rem; }
+
+.jx3 {
+  height: 0.266rem;
+  background: #f0f0f0; }
+
+.eight_ {
+  font-size: 0.48rem;
+  margin-top: 0.4rem;
+  margin-left: 0.746rem; }
+
+.left8 {
+  color: #8C8C8C;
+  margin-left: 8.826rem;
+  margin-top: -0.853rem;
+  font-size: 0.746rem; }
+
+.jx4 {
+  height: 0.266rem;
+  background: #f0f0f0; }
+
+.nine_ {
+  font-size: 0.48rem;
+  margin-top: 0.4rem;
+  margin-left: 0.746rem; }
+
+.left9 {
+  color: #8C8C8C;
+  margin-left: 8.826rem;
+  margin-top: -0.853rem;
+  font-size: 0.746rem; }
+
+.wp {
+  color: #8C8C8C;
+  font-size: 0.4rem;
+  margin-top: -0.586rem;
+  margin-left: 6.88rem; }
+
+.jx5 {
+  height: 2.4rem;
+  background: #f0f0f0; }

@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />	
+		<title></title>
+		<link rel="stylesheet" href="font/iconfont.css">
+		<link rel="stylesheet" href="css/1.css">
+			
+			<style>
+			.wd_{
+				font-size: 0.32rem;
+				margin-left: 8.106rem;
+                margin-top: 0.48rem;
+			}
+			.zj_{
+				font-size: 0.32rem;
+				margin-left: 6.16rem;
+                margin-top: 0.506rem;
+			}
+			.sp_{
+				font-size: 0.32rem;
+				margin-left: 4.106rem;
+                margin-top: 0.506rem;
+			}
+			.fx_{
+				font-size: 0.32rem;
+				margin-left: 2.186rem;
+                margin-top: 0.506rem;
+			}
+			.one_{
+				font-size: 0.32rem;
+			    margin-top: -0.666rem;
+			    margin-left: 0.133rem;
+            }
+			.nav1.fixed {
+			  position: fixed;
+		     top: 16.18rem;
+		     z-index: 999;
+           }
+
+			.nav1 {
+				border:0.053rem solid #ccc;
+			    background: #fff;
+			    height: 1.6rem;
+			}
+			footer{
+				height:1.6rem;
+				
+			}
+			
+			ul{
+				margin:0;padding:0;
+				width:100%;    /* 默认有内边距和外边距*/
+				}
+			li{
+					box-sizing:border-box;/*盒模型*/
+					float:left;
+					border:0.026rem solid #eee;
+					width:1.973rem;
+					height:1.546rem;
+					line-height: 1.173rem;
+					text-align: center;
+					list-style: none;
+				}
+				i{font-size:0.64rem!important;color:#FF8C00;}        /*优先级最高*/
+				.clearfix:after{
+					content:"";
+					display:block;
+					height:0;
+					visibility: hidden;    /*hidden 设置对象隐藏*/
+					clear:both;
+					}	
+			li.active .icon-dazhongdianping:before{
+				content: "\e741";  /*改成块状的图标*/
+			}
+			li.active .icon-faxian1:before{
+				content: "\e608"; 
+			}
+			li.active .icon-shipin:before{
+				content: "\e643";
+			}
+			li.active .icon-zuji:before{
+				 content: "\e6ca"; 
+			}
+			li.active .icon-wode1:before{
+				content: "\e604";
+			}
+			</style>
+	</head>
+	<body>
+		<div class="header">
+		<p>
+			<a class="addr" href="">太原 &nbsp;&nbsp;&nabla;</a>
+		    <input type="text" placeholder="输入商品名,地点" />
+		    <a href="登陆.html"><img class="mine" src="img/我的.png"></a>
+        </p>   	
+		</div>
+		<div class="fix-box">
+		   <div class="fix-page">
+		<a class="one" href="侧边栏.html">
+			<img src="img/20160126194705meishi.png">
+		    <div class="word">美食</div>
+		</a>
+		<a class="two"  href="">
+			<img src="img/20160126202841xiuxianyule.png">
+		    <div class="word">休闲</div>
+		</a>  
+		<a class="three" href="">
+			<img src="img/20160126202946liren.png">
+		    <div class="word">丽人</div>
+		</a>
+		<a class="four" href="">
+			<img src="img/20160126203251waimai.png">
+		    <div class="word">外卖</div>
+		</a>
+		<a class="five" href="">
+			<img src="img/20160126203337jiudian.png">
+		    <div class="word">酒店</div>
+		</a>
+		
+		<a class="one-" href="">
+			<img src="img/20160126203440zhoubianyou.png">
+		    <div class="word">周边</div>
+		</a>
+		<a class="two-" href="">
+			<img src="img/20160126203542ktv.png">
+		    <div class="word">kTV</div>
+		</a>
+		<a class="three-" href="">
+			<img src="img/20160126203830jiehun.png">
+		    <div class="word">结婚</div>
+		</a>
+		<a class="four-" href="">
+			<img src="img/20160204172927huoguo.png">
+		    <div class="word">火锅</div>
+		</a>
+		<a class="five-" href="">
+			<img src="img/20160125182200more.png">
+		    <div class="word">全部分类</div>
+		</a>
+	
+	    </div>
+	</div>
+		<div class="bord"></div>
+	<div class="index_rb">
+		<a class="index_rb_item" href="">
+			<div class="up word">超值折扣菜</div>
+			<div class="down_word">低至1折起</div>
+			<img class="pic1" src="img/89796a587c129aeb6bea8c6b30efa713.png">
+		</a>
+		<a class="index_rb_item1" href="">
+			<div class="up word">热映大片</div>
+			<div class="down_word">9.9元起</div>
+			<img class="pic2" src="img/img/a4ec89ead2adf6f66e5ae16a7dbb0a6d.png">
+		</a>
+	</div>
+		<div class="bord"></div>
+	<div class="index_all">
+		<div class="all_block full">
+			<a class="index_all_item all_item1" href="">
+				<div class="up">58元红包</div>
+			    <div class="down down1">天天来就有</div>
+			    <img class="pic" src="img/img/205326b96e2a31c2e79529548ff5dc24.png">
+			</a>
+		</div>
+	</div>
+	<div class="bord"></div>
+	<div class="index_sale_block index_super_sale">
+		<a class="index_title title_sale" href="">
+			<span class="title_left">超值特惠</span>
+			<span class="more">更多优惠</span>
+			<i class="arrowent"></i>
+		</a>
+		<div class="index_content">
+			<a class="index_content_item mixed_content_item" href="">
+				<div class="index_cnt">
+					<img src="img/img/d08dd70492fe8602e224ea67dc90acb6109436.jpg@120w_90h_1e_1c_1l_watermark=1&&r=1&p=9&x=20&y=20.jpg" class="pic" alt="" width="100%" height="100%">
+				</div>
+				<div class="title">兄弟龙虾</div>
+				
+			</a>
+			<a class="index_content_item mixed_content_item" href="">
+				<div class="index_cnt">
+					<img src="img/2.jpg" class="pic1" alt="" width="100%" height="100%">
+				</div>
+				<div class="title1">小成哥广东茶点</div>
+				
+			</a>
+			<a class="index_content_item mixed_content_item" href="">
+				<div class="index_cnt">
+					<img src="img/3.jpg" class="pic2" alt="" width="100%" height="100%">
+				</div>
+				<div class="title2">四川香天下火锅</div>
+				
+			</a>
+		</div>
+	</div>
+		<div class="bord"></div>
+	    <div class="ad">
+	    	<img class="bg" src="img/8.jpg">
+	    </div> 
+	    <div class="bord"></div>
+	    <div class="under">
+	    	<div class="title_up">猜你喜欢</div>
+	    	<img class="cnpic" src="img/1.jpg">
+	    		<div class="cnt">
+	    			<div class="shop">后舍间概念书店</div>
+	    			<div class="mid">[2店通用]饮品6选1，提供免费WiFi</div>
+	    			<div class="price_">￥14.9</div>	
+	    			<div class="saled">已售250</div>
+	    		</div>
+	    </div>
+	    <div class="under1">
+	    	
+	    	<img class="cnpic1" src="img/2.jpg">
+	    		<div class="cnt1">
+	    			<div class="shop1">水琳珑电影洗浴</div>
+	    			<div class="mid1">[胜利街]特惠洗浴+搓背+汗蒸+观影</div>
+	    			<div class="price1_">￥39</div>	
+	    			<div class="saled1">已售50</div>
+	    		</div>
+	    </div>
+	    <div class="under2">
+	    	<img class="cnpic2" src="img/3.jpg">
+	    		<div class="cnt2">
+	    			<div class="shop2">九盐盯拉面</div>
+	    			<div class="mid2">[长风街]拉面1份，提供免费WiFi</div>
+	    			<div class="price2_">￥12.9</div>	
+	    			<div class="saled2">已售160</div>
+	    		</div>
+	    </div>
+	     <div class="under3">
+	    	<img class="cnpic3" src="img/4.jpg">
+	    		<div class="cnt3">
+	    			<div class="shop3">文和友老长沙大香肠</div>
+	    			<div class="mid3">[2店通用]香肠1份，包间免费</div>
+	    			<div class="price3_">￥11.9</div>	
+	    			<div class="saled3">已售154</div>
+	    		</div>
+	    </div>
+	    <div class="under4">
+	    	<img class="cnpic4" src="img/图片/a.jpg">
+	    		<div class="cnt4">
+	    			<div class="shop4">文和友老长沙大香肠</div>
+	    			<div class="mid4">[2店通用]香肠1份，包间免费</div>
+	    			<div class="price4_">￥11.9</div>	
+	    			<div class="saled4">已售154</div>
+	    		</div>
+	    </div>
+	    <div class="under5">
+	    	<img class="cnpic5" src="img/图片/aa.jpg">
+	    		<div class="cnt5">
+	    			<div class="shop5">VITA SPA</div>
+	    			<div class="mid5">[2店通用]肌痘护理</div>
+	    			<div class="price5_">￥9.9</div>	
+	    			<div class="saled5">已售40</div>
+	    		</div>
+	    </div>
+	    <div class="under6">
+	    	<img class="cnpic6" src="img/图片/b.jpg">
+	    		<div class="cnt6">
+	    			<div class="shop6">牛淼潮汕牛肉火锅</div>
+	    			<div class="mid6">100元代金券1张，可叠加</div>
+	    			<div class="price6_">￥49</div>	
+	    			<div class="saled6">已售2140</div>
+	    		</div>
+	    </div>
+	    <div class="under7">
+	    	<img class="cnpic7" src="img/图片/aa.jpg">
+	    		<div class="cnt7">
+	    			<div class="shop7">吉祥混沌</div>
+	    			<div class="mid7">[21店通用]混沌1选1，提供免费WiFi</div>
+	    			<div class="price7_">￥10.8</div>	
+	    			<div class="saled7">已售159</div>
+	    		</div>
+	    </div>
+	    <div class="under8">
+	    	<img class="cnpic8" src="img/图片/bnm.jpg">
+	    		<div class="cnt8">
+	    			<div class="shop8">日系造型</div>
+	    			<div class="mid8">[亲贤街]单人洗剪吹</div>
+	    			<div class="price8_">￥9.9</div>	
+	    			<div class="saled8">已售33</div>
+	    		</div>
+	    </div>
+	    <div class="under9">
+	    	<img class="cnpic9" src="img/图片/c.jpg">
+	    		<div class="cnt9">
+	    			<div class="shop9">丁丁洋回转自助火锅</div>
+	    			<div class="mid9">[3店通用]单人自助</div>
+	    			<div class="price9_">￥35.9</div>	
+	    			<div class="saled9">已售3886</div>
+	    		</div>
+	    </div>
+	    <div class="under10">
+	    	<img class="cnpic10" src="img/图片/cc.jpg">
+	    		<div class="cnt10">
+	    			<div class="shop10">九个火锅</div>
+	    			<div class="mid10">100元代金券1张，可叠加</div>
+	    			<div class="price10_">￥79</div>	
+	    			<div class="saled10">已售143</div>
+	    		</div>
+	    </div>
+	    <div class="under11">
+	    	<img class="cnpic11" src="img/图片/cvb.jpg">
+	    		<div class="cnt11">
+	    			<div class="shop11">萤石私人影院</div>
+	    			<div class="mid11">[平阳路]2-3人观影票</div>
+	    			<div class="price11_">￥68</div>	
+	    			<div class="saled11">已售199</div>
+	    		</div>
+	    </div>
+	    <div class="under12">
+	    	<img class="cnpic12" src="img/图片/dd.jpg">
+	    		<div class="cnt12">
+	    			<div class="shop12">御鼎森酒店洗浴</div>
+	    			<div class="mid12">[长治路]特惠秒杀单人洗浴一次</div>
+	    			<div class="price12_">￥9.9</div>	
+	    			<div class="saled12">已售206</div>
+	    		</div>
+	    </div>
+	    <div class="under13">
+	    	<img class="cnpic13" src="img/图片/vbn.jpg">
+	    		<div class="cnt13">
+	    			<div class="shop13">一尊皇牛</div>
+	    			<div class="mid13">[2店通用]50元代金券1张，可叠加</div>
+	    			<div class="price13_">￥44</div>	
+	    			<div class="saled13">已售164</div>
+	    		</div>
+	    </div>
+	     <div class="under14">
+	    	<img class="cnpic14" src="img/图片/xcv.jpg">
+	    		<div class="cnt14">
+	    			<div class="shop14">丰汇源自助烤肉</div>
+	    			<div class="mid14">单人自助</div>
+	    			<div class="price14_">￥62</div>	
+	    			<div class="saled14">已售764</div>
+	    		</div>
+	    </div>
+	    <div class="under15">
+	    	<img class="cnpic15" src="img/图片/zxc.jpg">
+	    		<div class="cnt15">
+	    			<div class="shop15">凤凰情湘西牛肉粉</div>
+	    			<div class="mid15">[长风街]单人经典套餐</div>
+	    			<div class="price15_">￥24.8</div>	
+	    			<div class="saled15">已售54</div>
+	    		</div>
+	    </div>
+	    <div class="under16">
+	    	<img class="cnpic16" src="img/tp/g.jpg">
+	    		<div class="cnt16">
+	    			<div class="shop16">串串叔叔</div>
+	    			<div class="mid16">[14店通用]芝士拌饭B套餐</div>
+	    			<div class="price16_">￥19.9</div>	
+	    			<div class="saled16">已售78</div>
+	    		</div>
+	    </div>
+	    <div class="under17">
+	    	<img class="cnpic17" src="img/tp/h.jpg">
+	    		<div class="cnt17">
+	    			<div class="shop17">唯美轩涮烤自助餐厅</div>
+	    			<div class="mid17">自助涮烤单人餐</div>
+	    			<div class="price17_">￥39.8</div>	
+	    			<div class="saled17">已售588</div>
+	    		</div>
+	    </div>
+	    <div class="under18">
+	    	<img class="cnpic18" src="img/tp/i.jpg">
+	    		<div class="cnt18">
+	    			<div class="shop18">魔方KTV量版</div>
+	    			<div class="mid18">[北肖墙]黄金场2小时欢乐券</div>
+	    			<div class="price18_">￥68</div>	
+	    			<div class="saled18">已售237</div>
+	    		</div>
+	    </div>
+	    <div class="under19">
+	    	<img class="cnpic19" src="img/tp/j.jpg">
+	    		<div class="cnt19">
+	    			<div class="shop19">南泥湾KTV</div>
+	    			<div class="mid19">[康宁街]周一至周五下午3小时狂欢券</div>
+	    			<div class="price19_">￥15.8</div>	
+	    			<div class="saled19">已售297</div>
+	    		</div>
+	    </div>
+	    <div class="under20">
+	    	<img class="cnpic20" src="img/tp/k.jpg">
+	    		<div class="cnt20">
+	    			<div class="shop20">津渡西北菜</div>
+	    			<div class="mid20">[4店通用]100元代金券1张，可叠加</div>
+	    			<div class="price20_">￥79</div>	
+	    			<div class="saled20">已售965</div>
+	    		</div>
+	    </div>
+	    <div class="under21">
+	    	<img class="cnpic21" src="img/tp/l.jpg">
+	    		<div class="cnt21">
+	    			<div class="shop21">清水泉住宿洗浴中心</div>
+	    			<div class="mid21">[五一广场]经济套浴</div>
+	    			<div class="price21_">￥38</div>	
+	    			<div class="saled21">已售351</div>
+	    		</div>
+	    </div>
+	     <div class="under22">
+	    	<img class="cnpic22" src="img/tp/o.jpg">
+	    		<div class="cnt22">
+	    			<div class="shop22">洞天浴池</div>
+	    			<div class="mid22">[恒山路]单人洗浴+搓背</div>
+	    			<div class="price22_">￥20</div>	
+	    			<div class="saled22">已售847</div>
+	    		</div>
+	    </div>
+	    <div class="under23">
+	    	<img class="cnpic23" src="img/tp/p.jpg">
+	    		<div class="cnt23">
+	    			<div class="shop23">素百味素食自助</div>
+	    			<div class="mid23">[南内环街]自助一位</div>
+	    			<div class="price23_">￥21.8</div>	
+	    			<div class="saled23">已售123</div>
+	    		</div>
+	    </div>
+	     <div class="under24">
+	    	<img class="cnpic24" src="img/tp/t.jpg">
+	    		<div class="cnt24">
+	    			<div class="shop24">钢管厂小郡肝串串香</div>
+	    			<div class="mid24">[42店通用]双人自助</div>
+	    			<div class="price24_">￥33.6</div>	
+	    			<div class="saled24">已售526</div>
+	    		</div>
+	    </div>
+	    <div class="under25">
+	    	<img class="cnpic25" src="img/tp/u.png">
+	    		<div class="cnt25">
+	    			<div class="shop25">乐水一方</div>
+	    			<div class="mid25">[体育路]经典足浴</div>
+	    			<div class="price25_">￥78</div>	
+	    			<div class="saled25">已售307</div>
+	    		</div>
+	    </div>
+	    <footer class="nav1 fixed">
+	    	<ul class="clearfix">
+			<li class="active">
+			  <i class="icon iconfont icon-dazhongdianping"></i>
+			  <p class="one_">首页</p>
+			</li>
+			<li>
+			<i class="icon iconfont icon-faxian1"></i>
+			 <a href="发现页.html"><p class="fx_">发现</p></a>
+			</li>
+			<li>
+			 <i class="icon iconfont icon-shipin"></i>
+			  <a href="视频页.html"><p class="sp_">视频</p></a>
+			</li>
+			<li>
+			
+			 <i class="icon iconfont icon-zuji"></i>
+			 <a href="足迹页.html"><p class="zj_">足迹</p></a>
+			</li>
+			<li>
+				<i class="icon iconfont icon-wode1"></i>
+				 <a href="个人资料页1.html"><p class="wd_">我的</p></a>
+			</li>
+		</ul>
+	    </footer>
+        <div class="kong"></div>
+		<script type="text/javascript">
+      	document.documentElement.style.fontSize=document.documentElement.clientWidth/10+'px';
+      	
+      	/*var btns=document.querySelectorAll("li");*/
+		var lis=document.getElementsByTagName("li");
+		for(var i=0;i<lis.length;i++){
+			lis[i].onclick=function(){
+				for(var j=0;j<lis.length;j++){    //清除样式
+					lis[j].className="";
+				}
+				this.className="active";
+			}
+			
+		}
+		
+		var nav=document.getElementsByClassName("nav1")[0];
+     window.onscroll=function(){
+	var scrollTop=document.documentElement.scrollTop||document.body.scrollTop;
+	if(scrollTop=661){
+		nav.className="nav1 fixed";
+		
+	}else{
+		nav.className="nav1";
+	}
+}
+      	</script>
+	</body>
+</html>

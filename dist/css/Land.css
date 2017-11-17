@@ -1,0 +1,56 @@
+.bg {
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  height: 13.33rem;
+  margin-top: 1.333rem; }
+
+.box {
+  background: #F2A0E2;
+  width: 9.36rem;
+  height: 8.106rem;
+  position: absolute;
+  top: 4.853rem;
+  left: 26.29rem; }
+
+.login {
+  background: #fff; }
+
+.kx {
+  border: 0.0133rem solid #ccc; }
+
+label[for="username"] {
+  color: #000000;
+  font-size: 0.453rem;
+  padding: 0.16rem;
+  letter-spacing: 0.0266rem;
+  margin-left: 0.16rem; }
+
+label[for="password"] {
+  color: #000000;
+  font-size: 0.453rem;
+  padding: 0.133rem;
+  letter-spacing: 0.0266rem;
+  margin-left: 0.16rem; }
+
+input[type="text"] {
+  width: 6.24rem;
+  height: 0.933rem;
+  border: none;
+  font-size: 0.426rem;
+  margin-top: 0.266rem; }
+
+input[type="password"] {
+  width: 6.24rem;
+  height: 0.933rem;
+  font-size: 0.426rem;
+  margin-top: 0.266rem;
+  border: none; }
+
+input[type="submit"] {
+  font-size: 0.506rem;
+  margin-top: -4.4rem;
+  width: 8.293rem;
+  height: 1.066rem;
+  background: orangered;
+  color: #fff;
+  margin-left: 0.346rem; }

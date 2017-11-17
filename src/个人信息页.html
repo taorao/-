@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" href="css/个人信息页.css">
+			<style>
+				.first{
+			position:relative;height:2.133rem;border-bottom: 0.0133rem solid #ccc;
+		}
+			img{
+				width:1.5rem;
+				height:1.5rem;
+				border-radius: 50%;
+				margin-top: 0.346rem;
+    margin-left: 0.4rem;         /*让图片变圆*/
+			}
+			input{
+				position: absolute;left:0;right:0;
+				width:2.66rem;
+				height:2.66rem;opacity: 0;
+			}
+			</style>
+	</head>
+	<body>
+		<div class="header">
+			<p>
+			<a class="left" href="个人资料前页.html">&lt;</a>
+			
+		    <div class="up">个人信息</div>
+		    </p>  
+		</div>
+		<div class="first">
+			<img class="tx" src="img/头像 女孩.png">
+				<input type="file">
+				<div class="right">&gt;</div>
+		</div>
+		<div class="first1">
+			<div class="nc">昵称</div>
+			<div class="mc">dpuser_1244626802</div>
+			<div class="xg">修改</div>
+				<div class="right1">&gt;</div>
+		</div>
+		<div class="first2">
+			<div class="xb">性别</div>
+			<div class="sz">设置</div>
+			<div class="right2">&gt;</div>
+		</div>
+		<div class="first3">
+			<div class="sr">生日</div>
+			<div class="bq">获星座标签</div>
+			<div class="right3">&gt;</div>
+		</div>
+		<div class="first4">
+			<div class="jx">家乡</div>
+			<div class="tja">获更精准口味推荐</div>
+			<div class="right4">&gt;</div>
+		</div>
+		<div class="first5">
+			<div class="jd">常居地</div>
+			<div class="ty">太原</div>
+			<div class="right5">&gt;</div>
+		</div>
+		<div class="first6">
+			<div class="dz">收获地址</div>
+			<a class="xgy" href="收获地址列表页.html"><div class="tj">修改/添加</div></a>
+			<div class="right6">&gt;</div>
+		</div>
+		<div class="first7">
+			<div class="zt">婚姻状态</div>
+			<div class="dn">让点评更懂你</div>
+			<div class="right7">&gt;</div>
+		</div>
+		<div class="bord"></div>
+		<div class="first8">
+			<div class="wd">我的等级</div>
+			<div class="ck">查看等级</div>
+			<div class="right8">&gt;</div>
+		</div>
+		<div class="first9">
+			<div class="hy">会员身份</div>
+			<div class="zx">成为VIP享特权</div>
+			<div class="right9">&gt;</div>
+		</div>
+		<div class="bord"></div>
+		<div class="first10">
+			<div class="sj">手机号</div>
+			<div class="hm">184****3137</div>
+			<div class="right10">&gt;</div>
+		</div>
+		<div class="first11">
+			<div class="mm">密码</div>
+			<div class="xgm">修改</div>
+			<div class="right11">&gt;</div>
+		</div>
+		<div class="first12">
+			<div class="bd">第三方账号绑定</div>
+			<div class="wx">微信 </div>
+			<a class="dl" href="qq登录.html"><div class="qq1">QQ</div></a>
+			<div class="right12">&gt;</div>
+		</div>
+		<div class="bord1">
+			<a class="zhd" href="个人资料页1.html"><button type="submit" class="btn">退出当前账号</button></a>
+		</div>
+		<script type="text/javascript">
+      	document.documentElement.style.fontSize=document.documentElement.clientWidth/10+'px';
+      	
+      	var fileBtn=document.querySelector('input[type="file"]'),
+			    img=document.querySelector("img");
+			fileBtn.onchange=function(){
+				var fd=new FileReader();
+				   // readAsDataURL  将()中的文件 读成base64
+      fd.readAsDataURL(this.files[0])
+      fd.onload = function(e) {
+        img.src = e.target.result
+      }
+    }
+      	</script>
+	</body>
+</html>

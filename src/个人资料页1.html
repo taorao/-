@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" href="font/iconfont.css">
+			<link rel="stylesheet" href="css/个人资料页1.css">
+		<style>
+			.wd_{
+				font-size: 0.32rem;
+				margin-left: 8.106rem;
+                margin-top: 0.48rem;
+			}
+			.zj_{
+				font-size: 0.32rem;
+				margin-left: 6.16rem;
+                margin-top: 0.506rem;
+			}
+			.sp_{
+				
+				font-size: 0.32rem;
+				margin-left: 4.106rem;
+                margin-top: 0.506rem;
+			}
+			.fx_{
+				
+				font-size: 0.32rem;
+				margin-left: 2.186rem;
+                margin-top: 0.506rem;
+			}
+			.onea_{
+				font-size: 0.32rem;
+			    margin-top: -0.666rem;
+			    margin-left: 0.133rem;
+            }
+			.nav1.fixed {
+				
+		     position: fixed;
+		     top: 16.18rem;
+		     z-index: 999;
+           }
+
+			.nav1 {
+				border:0.0533rem solid #ccc;
+			    background: #fff;
+			    height: 1.6rem;
+			}
+			footer{
+				height:1.6rem;
+				
+			}
+			
+			ul{
+				margin:0;padding:0;
+				width:100%;    /* 默认有内边距和外边距*/
+				}
+			li{
+					box-sizing:border-box;/*盒模型*/
+					float:left;
+					border:0.0266rem solid #eee;
+					width:1.973rem;
+					height:1.546rem;
+					line-height: 1.173rem;
+					text-align: center;
+					list-style: none;
+				}
+				i{font-size:0.64rem!important;color:#FF8C00;}        /*优先级最高*/
+				.clearfix:after{
+					content:"";
+					display:block;
+					height:0;
+					visibility: hidden;    /*hidden 设置对象隐藏*/
+					clear:both;
+					}	
+			li.active .icon-dazhongdianping:before{
+				content: "\e741";  /*改成块状的图标*/
+			}
+			li.active .icon-faxian1:before{
+				content: "\e608"; 
+			}
+			li.active .icon-shipin:before{
+				content: "\e643";
+			}
+			li.active .icon-zuji:before{
+				 content: "\e6ca"; 
+			}
+			li.active .icon-wode1:before{
+				content: "\e604";
+			}
+		</style>
+		
+	</head>
+	<body>
+		<div class="up">
+			<div class="shang">
+				<img class="pic" src="img/头像 (1).png">
+					<a class="dj" href="登陆.html">点击登录</a>
+					<p class="yh">登录享优惠</p>
+					<div class="left">&gt;</div>
+			</div>
+			<hr class="xian">
+				<div class="tb">
+					<div class="one">
+						<img class="pic1" src="img/1/收藏.png">
+							<p class="sc">收藏</p>
+					</div>
+					<div class="two">
+						<img class="pic2" src="img/1/点评.png">
+							<p class="dp">待点评</p>
+					</div>
+					<div class="three">
+						<img class="pic3" src="img/1/榜单2.png">
+							<p class="bd">榜单</p>
+					</div>
+					<div class="four">
+						<img class="pic4" src="img/1/浏览_.png">
+							<p class="ll">最近浏览</p>
+					</div>
+					<div class="five">
+						<img class="pic5" src="img/1/友好提示.png">
+							<p class="hy">好友</p>
+					</div>
+				</div>
+		</div>
+		<div class="mid">
+			<div class="six">
+				<img class="pic6" src="img/2/代付款.png">
+					<p class="fk">待付款</p>
+			</div>
+			<div class="seven">
+				<img class="pic7" src="img/2/可使用-01.png">
+					<p class="sy">可使用</p>
+			</div>
+			<div class="eight">
+				<img class="pic8" src="img/2/退款.png">
+					<p class="tk">退款/售后</p>
+			</div>
+			<div class="nine">
+				<img class="pic9" src="img/2/订单.png">
+					<p class="dd">订单</p>
+			</div>
+		</div>
+		<div class="bord"></div>
+		<div class="jx"></div>
+		<div class="mid1">
+			<div class="ten">
+				<img class="pic10" src="img/3/卡券.png">
+					<p class="kq">卡券</p>
+					<p class="zh">0张</p>
+			</div>
+			<div class="evelen">
+				<img class="pic11" src="img/3/积分.png">
+					<p class="jf">积分</p>
+					<p class="zh1">0</p>
+			</div>
+			<div class="twlen">
+				<img class="pic12" src="img/3/余额.png">
+					<p class="ye">余额</p>
+					<p class="zh2">￥0.00</p>
+			</div>
+			<div class="thirten">
+				<img class="pic13" src="img/3/钱包.png">
+					<p class="qb">我的钱包</p>
+					<p class="zh3">办信用卡</p>
+			</div>
+		</div>
+		<div class="jx1"></div>
+		<div class="db">
+			
+				<p class="one_">会员等级</p>
+				<div class="left1">&gt;</div>
+				<hr>
+				<p class="two_">我的勋章</p>
+				<div class="ry">看看我的专属荣耀</div>
+				<div class="left2">&gt;</div>
+				<hr>
+				<p class="three_">社区论坛</p>
+				<div class="left3">&gt;</div>
+				<hr>
+				<p class="four_">发票助手</p>
+				<div class="left4">&gt;</div>
+				<hr>
+				<p class="five_">联系客服</p>
+				<div class="left5">&gt;</div>
+				<hr>
+				<p class="six_">设置</p>
+				<div class="left6">&gt;</div>
+				<hr>
+			</div>
+			<div class="jx2"></div>
+			<p class="seven_">企业服务</p>
+				<div class="left7">&gt;</div>
+			<div class="jx3"></div>
+			<p class="eight_">我要合作</p>
+				<div class="left8">&gt;</div>
+			<div class="jx4"></div>
+			<p class="nine_">协议及声明</p>
+			<div class="wp">网购大家评</div>
+				<div class="left9">&gt;</div>
+			<div class="jx5"></div>
+		 <footer class="nav1 fixed">
+	    	<ul class="clearfix">
+			<li class="active">
+			  <i class="icon iconfont icon-dazhongdianping"></i>
+			  <a href="主页.html"><p class="onea_">首页</p></a>
+			</li>
+			<li>
+			<i class="icon iconfont icon-faxian1"></i>
+			 <a href="发现页.html"><p class="onea_">发现</p></a>
+			</li>
+			<li>
+			 <i class="icon iconfont icon-shipin"></i>
+			  <a href="视频页.html"><p class="onea_">视频</p></a>
+			</li>
+			<li>
+			
+			 <i class="icon iconfont icon-zuji"></i>
+			 <a href="足迹页.html"><p class="onea_">足迹</p></a>
+			</li>
+			<li>
+				<i class="icon iconfont icon-wode1"></i>
+				 <a href="个人资料页1.html"><p class="onea_">我的</p></a>
+			</li>
+		</ul>
+	    </footer>
+		<script type="text/javascript">
+      	document.documentElement.style.fontSize=document.documentElement.clientWidth/10+'px';
+      	var lis=document.getElementsByTagName("li");
+		for(var i=0;i<lis.length;i++){
+			lis[i].onclick=function(){
+				for(var j=0;j<lis.length;j++){    //清除样式
+					lis[j].className="";
+				}
+				this.className="active";
+			}
+			
+		}
+		
+		var nav=document.getElementsByClassName("nav1")[0];
+     window.onscroll=function(){
+	var scrollTop=document.documentElement.scrollTop||document.body.scrollTop;
+	if(scrollTop=661){
+		nav.className="nav1 fixed";
+		
+	}else{
+		nav.className="nav1";
+	}
+}
+      	</script>
+	</body>
+</html>

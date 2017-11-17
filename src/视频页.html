@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" href="font/iconfont.css">
+		<link rel="stylesheet" href="css/视频页.css">
+		<style>
+		a{
+			text-decoration: none;
+		}
+		   #video{
+		   	position:relative;
+		   }
+		     #video1{
+		   	position:relative;
+		   }
+		    #video2{
+		   	position:relative;
+		   }
+		   #video3{
+		   	position:relative;
+		   }
+		   #video4{
+		   	position:relative;
+		   }
+		    #video5{
+		   	position:relative;
+		   }
+		   #video6{
+		   	position:relative;
+		   }
+		   #video7{
+		   	position:relative;
+		   }
+		    #play{
+		    	position:absolute;
+		    	width: 0.8rem;
+		    	height: 0.8rem;
+		    	background: url(img/video/play.png);
+		    	background-size: 0.8rem;
+		    	    top: 4.713rem;
+                left: 4.373rem;
+		    }
+		    #play1{
+		    	position:absolute;
+		    	width: 0.8rem;
+		    	height: 0.8rem;
+		    	background: url(img/video/play.png);
+		    	background-size: 0.8rem;
+		    	top: 11.466rem;
+                left: 4.373rem;
+		    }
+		    #play2{
+		    	position:absolute;
+		    	width: 0.8rem;
+		    	height: 0.8rem;
+		    	background: url(img/video/play.png);
+		    	background-size:0.8rem;
+		    	    top: 18.346rem;
+                left: 4.373rem;
+		    }
+			#play3{
+		    	position:absolute;
+		    	width: 0.8rem;
+		    	height: 0.8rem;
+		    	background: url(img/video/play.png);
+		    	background-size: 0.8rem;
+		    	 top: 25.36rem;
+                left: 4.373rem;
+		    }
+			
+		#play4{
+		    	position:absolute;
+		    	width: 0.8rem;
+		    	height: 0.8rem;
+		    	background: url(img/video/play.png);
+		    	background-size: 0.8rem;
+		    	 top: 32.16rem;
+                left: 4.373rem;
+		    }
+		    #play5{
+		    	position:absolute;
+		    	width: 0.8rem;
+		    	height: 0.8rem;
+		    	background: url(img/video/play.png);
+		    	background-size: 0.8rem;
+		    	 top: 39.09rem;
+                left: 4.373rem;
+		    }
+		     #play6{
+		    	position:absolute;
+		    	width: 0.8rem;
+		    	height: 0.8rem;
+		    	background: url(img/video/play.png);
+		    	background-size: 0.8rem;
+		    	 top: 45.38rem;
+                left: 4.373rem;
+		    }
+		    #play7{
+		    	position:absolute;
+		    	width: 0.8rem;
+		    	height:0.8rem;
+		    	background: url(img/video/play.png);
+		    	background-size: 0.8rem;
+		    	 top: 51.573rem;
+                left: 4.373rem;
+		    }
+			.wd_{
+				font-size: 0.32rem;
+				margin-left: 8.106rem;
+                margin-top:0.48rem;
+			}
+			.zj_{
+				font-size: 0.32rem;
+				margin-left: 6.16rem;
+                margin-top: 0.506rem;
+			}
+			.sp_{
+				font-size: 0.32rem;
+				margin-left: 4.106rem;
+                margin-top: 0.506rem;
+			}
+			.fx_{
+				font-size: 0.32rem;
+				margin-left: 2.186rem;
+                margin-top: 0.506rem;
+			}
+			.one_{
+				font-size:0.32rem;
+			    margin-top: -0.666rem;
+			    margin-left:0.133rem;
+            }
+			.nav1.fixed {
+				
+		     position: fixed;
+		     top: 16.18rem;
+		     z-index: 999;
+           }
+
+			.nav1 {
+				border:0.053rem solid #ccc;
+			    background: #fff;
+			    height: 1.6rem;
+			}
+			footer{
+				height:1.6rem;
+				
+			}
+			
+			ul{
+				margin:0;padding:0;
+				width:100%;    /* 默认有内边距和外边距*/
+				}
+			li{
+					box-sizing:border-box;/*盒模型*/
+					float:left;
+					border:0.0266rem solid #eee;
+					width:1.973rem;
+					height:1.546rem;
+					line-height: 1.173rem;
+					text-align: center;
+					list-style: none;
+				}
+				i{font-size:0.64rem!important;color:#FF8C00;}        /*优先级最高*/
+				.clearfix:after{
+					content:"";
+					display:block;
+					height:0;
+					visibility: hidden;    /*hidden 设置对象隐藏*/
+					clear:both;
+					}	
+			li.active .icon-dazhongdianping:before{
+				content: "\e741";  /*改成块状的图标*/
+			}
+			li.active .icon-faxian1:before{
+				content: "\e608"; 
+			}
+			li.active .icon-shipin:before{
+				content: "\e643";
+			}
+			li.active .icon-zuji:before{
+				 content: "\e6ca"; 
+			}
+			li.active .icon-wode1:before{
+				content: "\e604";
+			}
+			
+		</style>
+	</head>
+	<body>
+		<header>
+			<div class="dp">点评视频</div>
+			
+		</header>
+		<div class="xian"></div>
+		<section class="wrapper">
+			<div class="bh">
+				
+				 <p class="jxa">精选</p>	
+				 <p class="chp">吃货趴</p>
+				 <p class="tzx">躺着学</p>
+				 <p class="pl">变漂亮</p>
+				 <p class="wl">嗨玩乐</p>
+				<!-- <li>追电影</li>
+				 <li>赶时髦</li>
+				 <li>去健身</li>
+				 <li>有萌娃</li>
+				 <li>在路上</li>
+				 <li>看婚尚</li>
+				 <li>家里蹲</li>
+				 <li>爱萌宠</li>
+				 <li>要健康</li>
+				 <li>车保养</li>
+				 <li>涨姿势</li>-->
+				 <!--<li>买买买</li>
+				 <li>要幸福</li>
+				 <li>出去浪</li>
+				 <li>约电影</li>-->
+				<!--</ul>-->
+			</div>
+			<div class="xian1"></div>
+			<video id="video" poster="img/girl.jpg" width="100%;">
+		    <source src="img/video/movie.mp4" type="audio/mp4"></source>
+			您的浏览器不支持HTML5的video
+		</video>
+		
+		<div id="play"></div>
+		<div class="wz">谁说三文鱼只有生吃好吃？这样做简直百里飘香！</div>
+		<div class="py">心煮艺TV_</div>
+		<img class="xh" src="img/img/喜欢.png">
+			<div class="sz">57</div>
+			<img class="gd" src="img/img/更多.png">
+				<div class="jx"></div>
+			<video id="video1" poster="img/a/1.jpg" width="100%;">
+		    <source src="img/video/movie.mp4" type="audio/mp4"></source>
+			您的浏览器不支持HTML5的video
+		</video>
+		
+		<div id="play1"></div>
+		<div class="wz1">培根在锅中发出的滋滋声，绝对是清晨叫响耳朵的美妙音乐！</div>
+		<div class="py1">日日煮DayDayCook</div>
+		<img class="xh1" src="img/img/喜欢.png">
+			<div class="sz1">赞</div>
+			<img class="gd1" src="img/img/更多.png">
+		<div class="jx1"></div>	
+		<video id="video2" poster="img/a/2.jpg" width="100%;">
+		    <source src="img/video/movie.mp4" type="audio/mp4"></source>
+			您的浏览器不支持HTML5的video
+		</video>
+		
+		<div id="play2"></div>
+		<div class="wz2">鱼肥蟹美的秋天，给高颜值海鲜梭子蟹疯狂打call!</div>
+		<div class="py2">微体社区</div>
+		<img class="xh2" src="img/img/喜欢.png">
+			<div class="sz2">赞</div>
+			<img class="gd2" src="img/img/更多.png">
+				<div class="jx2"></div>	
+		<video id="video3" poster="img/a/3.jpg" width="100%;">
+		    <source src="img/video/movie.mp4" type="audio/mp4"></source>
+			您的浏览器不支持HTML5的video
+		</video>
+		
+		<div id="play3"></div>
+		<div class="wz3">鱼肥蟹美的秋天，给高颜值海鲜梭子蟹疯狂打call!</div>
+		<div class="py3">微体社区</div>
+		<img class="xh3" src="img/img/喜欢.png">
+			<div class="sz3">赞</div>
+			<img class="gd3" src="img/img/更多.png">
+				
+				<div class="jx3"></div>	
+		<video id="video4" poster="img/a/4.jpg" width="100%;">
+		    <source src="img/video/movie.mp4" type="audio/mp4"></source>
+			您的浏览器不支持HTML5的video
+		</video>
+		
+		<div id="play4"></div>
+		<div class="wz4">把南瓜的香甜带到点心里，好吃不腻via@拾味爸爸</div>
+		<div class="py4">拾味爸爸</div>
+		<img class="xh4" src="img/img/喜欢.png">
+			<div class="sz4">2</div>
+			<img class="gd4" src="img/img/更多.png">
+			
+		<div class="jx4"></div>	
+		<video id="video5" poster="img/b/5.jpg" width="100%;">
+		    <source src="img/video/movie.mp4" type="audio/mp4"></source>
+			您的浏览器不支持HTML5的video
+		</video>
+		
+		<div id="play5"></div>
+		<div class="wz5">电饭锅香菇鸡肉粥 via@美食家大雄</div>
+		<div class="py5">美食家大雄</div>
+		<img class="xh5" src="img/img/喜欢.png">
+			<div class="sz5">2</div>
+			<img class="gd5" src="img/img/更多.png">	
+				
+		<div class="jx5"></div>	
+		<video id="video6" poster="img/b/6.jpg" width="100%;">
+		    <source src="img/video/movie.mp4" type="audio/mp4"></source>
+			您的浏览器不支持HTML5的video
+		</video>
+		
+		<div id="play6"></div>
+		<div class="wz6">浓香松软的布朗尼  via@蒋三雄</div>
+		<div class="py6">蒋三雄</div>
+		<img class="xh6" src="img/img/喜欢.png">
+			<div class="sz6">2</div>
+			<img class="gd6" src="img/img/更多.png">	
+			
+		<div class="jx6"></div>	
+		<video id="video7" poster="img/b/7.jpg" width="100%;">
+		    <source src="img/video/movie.mp4" type="audio/mp4"></source>
+			您的浏览器不支持HTML5的video
+		</video>
+		
+		<div id="play7"></div>
+		<div class="wz7">中秋手工月饼，自己做的月饼，食材更放心</div>
+		<div class="py7">烘培手记</div>
+		<img class="xh7" src="img/img/喜欢.png">
+			<div class="sz7">2</div>
+			<img class="gd7" src="img/img/更多.png">	
+				<div class="jx6"></div>	
+		</section>
+		<div class="jg"></div>
+		
+		<footer class="nav1 fixed">
+	    	<ul class="clearfix">
+			<li class="active">
+			  <i class="icon iconfont icon-dazhongdianping"></i>
+			  <a href="主页.html"><p class="one_">首页</p></a>
+			</li>
+			<li>
+			<i class="icon iconfont icon-faxian1"></i>
+			 <a href="发现页.html"><p class="one_">发现</p></a>
+			</li>
+			<li>
+			 <i class="icon iconfont icon-shipin"></i>
+			  <a href="视频页.html"><p class="one_">视频</p></a>
+			</li>
+			<li>
+			
+			 <i class="icon iconfont icon-zuji"></i>
+			 <a href="足迹页.html"><p class="one_">足迹</p></a>
+			</li>
+			<li>
+				<i class="icon iconfont icon-wode1"></i>
+				 <a href="个人资料页1.html"><p class="one_">我的</p></a>
+			</li>
+		</ul>
+	    </footer>
+		<script src="js/iscroll.js"></script>
+		<script>
+		document.documentElement.style.fontSize=document.documentElement.clientWidth/10+'px';
+		
+	
+
+
+		
+		var play=document.getElementById('play'),
+		    
+			    scroll=document.getElementById('scroll'),
+			    progress=document.getElementById('progress'),
+			    video=document.getElementById('video');
+	    //视频控制
+			function playPause(){
+				if(video.paused){
+					video.play();
+					play.style.backgroundImage="url('img/video/Pause.png')"
+				}else{
+					video.pause();
+					play.style.backgroundImage="url('img/video/play.png')"
+				}
+			}
+			play.onclick=function(){
+				playPause()
+			}
+			
+			
+			document.onmouseup = function(){
+		        document.onmousemove = null; //弹起鼠标不做任何操作
+		    }
+		
+      	var lis=document.getElementsByTagName("li");
+		for(var i=0;i<lis.length;i++){
+			lis[i].onclick=function(){
+				for(var j=0;j<lis.length;j++){    //清除样式
+					lis[j].className="";
+				}
+				this.className="active";
+			}
+			
+		}
+		
+		var nav=document.getElementsByClassName("nav1")[0];
+     window.onscroll=function(){
+	var scrollTop=document.documentElement.scrollTop||document.body.scrollTop;
+	if(scrollTop=661){
+		nav.className="nav1 fixed";
+		
+	}else{
+		nav.className="nav1";
+	}
+}
+      	</script>
+	</body>
+</html>

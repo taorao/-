@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />	
+       <title></title>
+       <style>
+       	* {
+			  margin: 0;
+			  padding: 0;
+			  list-style: none; }
+			
+			a {
+			  position: absolute;
+			  text-decoration: none;
+			  height: 0.533rem;
+			  line-height: 0.533rem;
+			  top: 0.533rem;
+			  left: 0.473rem;
+			  font-size: 0.426rem; }
+			
+			.header {
+			  position: relative;
+			  width: 100%;
+			  height: 1.573rem;
+			  background: #fff; }
+			
+			.left {
+			  position: absolute;
+			  color: #FF4500;
+			  font-size: 0.88rem;
+			  top: 0.553rem; }
+			
+			.up {
+			  position: absolute;
+			  font-size: 0.586rem;
+			  left: 3.68rem;
+			  top: 0.453rem; }
+			 .jx{
+			 	height:10px;
+			 	background: #f2f2f2;
+			 	margin-top:10px;
+			 }
+			 label[for="username"]{    color: #999;
+		    font-size: 18px;
+		    margin-top: 16px;
+		    margin-left: 10px;}
+			 .bw input[type=text]{
+			 	margin-left: 10px;
+			    height: 28px;
+			    border: none;
+			 }
+			 .jg{
+			 	background: #f2f2f2;
+			 	height:10px;
+			 	margin-top: 10px;
+			 }
+			 .hhh input[type=submit]{
+			 	height: 45px;
+			    width: 327px;
+			    background: orangered;
+			    border-radius: 15px;
+			    color: #fff;
+			    font-size: 20px;
+			    margin-left: 6px;
+   	            margin-top: 136px;
+    			text-align: center;		
+			 }
+       </style>
+	</head>
+	<body>
+		<div class="header">
+			<p>
+				<a class="left" href="">&lt;</a>
+			    <div class="up">修改昵称</div>
+		    </p>  
+		</div>
+		<div class="jx"></div>
+		<div class="bw">
+			<form action="" method="post">
+			  	<label for="username">昵称</label>
+				<input type="text" name="username" id="username" placeholder=""><br />
+		</div>
+		<div class="jg"></div>
+		<a class="hhh" href="个人信息页.html"><input type="submit" id="bc" value="保存"></a>
+		</form>
+		<script type="text/javascript">
+      	document.documentElement.style.fontSize=document.documentElement.clientWidth/10+'px';
+      	
+      	reg = document.getElementById('bc'),
+		userName = document.getElementById('username'),
+		forms = document.getElementsByTagName('form')[0];
+		function getCookie(key){
+			var _cookie = $d.cookie;	//username=wally; age=17; sex=man
+			var arr = _cookie.split(";");
+			for(var i=0;i<arr.length;i++){
+				if(arr[i].split("=")[0].trim() === key){
+					return arr[i].split("=")[1]
+				}
+			}
+		}
+		function setCookie(key, value, time){
+			var date = new Date()
+			date.setDate(date.getDate() + time) // 当前时间 + 30天
+			document.cookie = key + "=" + value + ";expires=" + date
+		}
+		document.forms[0].onsubmit = function(e){
+			e=e || window.event
+			e.preventDefault();
+			if (username.value) {
+				setCookie('username',username.value,7)
+			}
+	  	}
+		
+		
+		reg.onclick=function(){
+	  		location.href = "个人信息页.html"
+	  	}
+
+      	</script>
+	</body>
+</html>

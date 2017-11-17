@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/Land.css"/>
+		<link rel="stylesheet" href="css/登陆.css">
+	</head>
+	<body>
+		<div class="header">
+			<p>
+			<a class="left" href="主页.html">&lt;</a>
+		    <div class="up">点评登录</div>
+		    </p>  
+		</div>
+		<div class="bord"></div>
+		
+		    <div class="login">
+			  <form action="" method="post">
+			  	
+				<label for="username">用户名:</label>
+				<input type="text" name="username" id="username" placeholder="邮箱/昵称/手机号码"><br />
+				<div class="kx"></div>
+				<label for="password">密&nbsp;&nbsp;&nbsp;&nbsp;码:</label>
+				<input type="password" name="password" id="password" placeholder="请填写长度为6-20个字符的密码"><br />
+				<a class="zl" href="个人资料页.html"><input type="submit" id="ipt" value="登录" d-hash="login"></a>
+		        <a class="ym" href="注册页.html"><div class="zc">立即注册</div></a>
+			  </form>
+		    </div>
+		    
+		
+		
+		
+		<div class="xmd">
+			<div class="xian"></div>
+			<div class="text">第三方账号登录</div>
+			<div class="xian"></div>
+		</div>
+		<div class="tb">
+			<a class="dld" href="qq登录.html"><img class="pic" src="img/QQ.png"></a>
+				<img class="pic1" src="img/weibo.png">
+		</div>
+		<div class="dbd">
+			登录即表示你同意大众点评<a class="xy" href="">《用户使用协议》</a>
+		</div>
+		<script type="text/javascript">
+      	document.documentElement.style.fontSize=document.documentElement.clientWidth/10+'px';
+      	var ipt=document.getElementById("ipt");	
+		function setCookie(key, value, time){
+				var date = new Date()
+				date.setDate(date.getDate() + time) 
+				document.cookie = key + "=" + encodeURIComponent(value) + ";expires=" + date
+			}
+		ipt.onclick=function(e){
+			e=e||window.event;
+			e.preventDefault();
+			if(username.value){
+					setCookie("username", username.value, 7)
+				}	
+		var _cookie = document.cookie;	
+		var arr = _cookie.split(";");
+		for(var i=0;i<arr.length;i++){
+			if(arr[i].split("=")[0].trim()){				
+			console.log((arr[i].split("=")[1]));
+				location.href="个人资料页.html";			
+			}
+		}		   
+	}
+      	</script>
+	</body>
+</html>
